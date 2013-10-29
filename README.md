@@ -1,5 +1,5 @@
-irish_english
-=============
+Irish English vs American English
+=================================
 
 This repo is for a simple webpage listing some common differences between [Irish English](http://en.wikipedia.org/wiki/Hiberno-English) and [American English](http://en.wikipedia.org/wiki/American_English)
 
