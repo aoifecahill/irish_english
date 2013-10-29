@@ -1,0 +1,86 @@
+
+body { 
+    border: 0; 
+    margin: 10px; 
+    padding: 0; 
+    
+    font-family: Trebuchet MS, Tahoma, Arial, Helvetica;   
+}
+
+#header {    
+    text-align: center;
+}
+#header h1 {
+    
+}
+
+#header h1 .ie {
+    color: #00aa00;
+}
+
+#header h1 .us {
+    color: #0000aa;
+}
+
+#header p {
+    font-size: 0.8em;
+    color: #666666;    
+}
+
+#header, #translationContainer {
+    
+    width: 1024px; 
+    overflow: auto;
+	margin:0 auto; 
+}
+
+.entry {
+    width: 180px;
+    height: 250px;
+    float: left; 
+    position: relative;
+    padding: 10px;
+    border: 1px dotted #aaaaaa;
+}
+
+.illustration {				
+	width: 100%;	
+}
+
+.transgrp {
+    position: absolute;
+    bottom: 0;
+    width: 100%;            
+}
+
+/* each 'translation' within .transgrp */
+.transgrp div {        
+    height: 30px;
+    padding: 1px;
+}
+
+.transgrp div p {    
+    margin:0;
+    padding:0;
+    padding-left: 53px;            
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.transgrp .ie, .transgrp .us {
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+}
+
+.transgrp .ie {    
+    background-image: url(flag_ireland_30px.png);    
+}
+
+.transgrp .us {     
+    background-image: url(flag_usa_30px.png);
+}
+
+
+
+
+
